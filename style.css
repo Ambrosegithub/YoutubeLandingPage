@@ -1,0 +1,15 @@
+#youtube-icon {
+    background-color: red;
+}
+.div_header{
+    display:flex;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+    margin: 15px;
+    border: solid 4px blueviolet;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    align-items: center;
+
+    
+}
