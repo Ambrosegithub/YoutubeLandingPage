@@ -10,28 +10,33 @@
 </head>
 <body>
   <header>
-    <div class = "div_header">  
-        <div><i class="fa-solid fa-bars"></i></div>
-       <div id="youtube-icon"><i class="fa-brands fa-youtube"></i></div>
-       <div id="div_input">
-           <input type="text" placeholder="search">
-          <span><i class="fa-solid fa-magnifying-glass"></i></span></div>
-       <div><i class="fa-solid fa-x"></i></div>
-       <div><i class="fa-solid fa-plus"></i></div>
-       <div><i class="fa-solid fa-video"></i></div>
-       <div><i class="fa-solid fa-grip"></i></div>
-       <div><i class="fa-solid fa-microphone"></i></div>
-       <div><i class="fa-solid fa-bell"></i></div>
-       <div><i class="fa-solid fa-user"></i></div>
-    </div> 
-  </header>
+        <div class = "div_header">
+            <div class="first-header" >
+                 <div id="bars"><i class="fa-solid fa-bars"></i></div>
+                
+                  <div id="youtube-icon"><img src="image/yutube.png"  width="150" height="75" alt=""></div>
+            </div>
+            <div class="second-header">
+                 <div id="div_input"><input type="text" placeholder="search"></div>
+                 <div><i class="fa-solid fa-microphone"></i></div>
+
+            </div>
+            <div class="last-header">
+                <div><i class="fa-solid fa-plus"></i></div>
+                <div><i class="fa-solid fa-grip"></i></div>
+                <div><i class="fa-solid fa-bell"></i></div>
+                <div><i class="fa-solid fa-user"></i></div>
+            </div>
+        </div>
+  </header>      
   <main>
+
       <div class="container">
            <div id="firstVideo" class="float1"><iframe width="1200" height="900" src="https://www.youtube.com/embed/MVAZyhYjHAA" title="YouTube video player" frameborder="0" allow="accelerometer; 
             autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
           
             <div class="float2">
-              <div id="secondVideo" class="float-right"><iframe width="427" height="240" src="https://www.youtube.com/embed/NB1mn2YVF8Q" title="YouTube video player" frameborder="0" allow="accelerometer; 
+              <div id="secondVideo" class="float-right"><iframe width="420" height="240" src="https://www.youtube.com/embed/NB1mn2YVF8Q" title="YouTube video player" frameborder="0" allow="accelerometer; 
               autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
              <div id="thirdVideo" class="float-right"><iframe width="427" height="240" src="https://www.youtube.com/embed/hQCRU7hZldE" title="YouTube video player" frameborder="0" allow="accelerometer; 
               autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -42,18 +47,18 @@
   </main>
 
   <section class="parent">
-          <div id="first"><i class="fa-solid fa-house"></i></div>
+          <div id="first"><i class="fa-solid fa-house"><span style="margin-left:4px ;">Home</span></i></div>
           <div id="second"><i class="fa-solid fa-clapperboard-play"></i></div>
           <div id="third"><i class="fa-solid fa-square-caret-right"></i></div>
           <div id="fourth"><i class="fa-solid fa-clock-rotate-left"></i></div>
-          <div id="fifth"><i class="fa-solid fa-angle-up"></i></div>
-          <div id="sixth"><i class="fa-solid fa-angle-down"></i></div>
-          <div id="seventh"><i class="fa-solid fa-compass"></i></div>
+          <div id="fifth"><i class="fa-solid fa-angle-up"><span>Show More</span></i></div>
+          <div id="sixth"><i class="fa-solid fa-angle-down"><span>Show Less</span></i></div>
+          <div id="seventh"><i class="fa-solid fa-compass"><span>Explore</span></i></div>
           <div id="eighth"><i class="fa-solid fa-gamepad-modern"></i></div>
           <div id="nineth"><i class="fa-solid fa-film"></i></div>
           <div id="tenth"><i class="fa-solid fa-film"></i></div>
           <div id="eleventh"><i class="fa-solid fa-flag"></i></div>
-          <div id=""><i class="fa-solid fa-gear"></i></div>
+          <div id=""><i class="fa-solid fa-gear"><span>Settings</span></i></div>
           <div id="first"><i class="fa-solid fa-angle-left"></i></div>
           <div id="first"><i class="fa-solid fa-angle-right"></i></div>
           <div id="first"><i class="fa-solid fa-trophy"></i></div>
@@ -66,22 +71,30 @@
           <div id="first"><i class="fa-solid fa-message"></i></div>    
           <div id="first"><i class="fa-solid fa-tower-broadcast"></i></div>
   </section>
-  <section class="span">
-      <span>817,898 Views &bull;</span>
-      <span><i class="fa-solid fa-thumbs-up"></i></span>
-      <span><i class="fa-solid fa-thumbs-down"></i></span>
-      <span><i class="fa-solid fa-share"></i></span>
-      <span><i class="fa-solid fa-download"></i></span>
-      <span><i class="fa-solid fa-scissors"></i></span>
-      <span><i class="fa-solid fa-ellipsis"></i></span>
-      <hr>
+  <section >
+      <div class="span">
+          <div class="span-a"><span>817,898 Views &bull;</span></div>
+          <div class="span-b"><span>Likes<i class="fa-solid fa-thumbs-up"></i></span></div>
+          <div class="span-c"><span>Dislikes<i class="fa-solid fa-thumbs-down"></i></span></div>
+          <div class="span-d"><span>Share<i class="fa-solid fa-share"></i></span></div>
+          <div class="span-e"><span>Clip<i class="fa-solid fa-scissors"></i></span></div>
+          <div class="span-f"><span>Download<i class="fa-solid fa-download"></i></span></div>
+          <div class="span-g"><span><i class="fa-solid fa-ellipsis"></i></span></div>
+         
+    </div>
   </section>
   <section class="section-subscribers">
+     <div>
+        <div><h3>Ambrose Isigba  <span id="check"><i id="check" class="fa-solid fa-check"></i></span></h3></div>
+        <div> <span id="span1">5,050 subscribers</span></div>
+     
+     
     
-      <h3>Ambrose Isigba  <span id="check"><i class="fa-solid fa-check"></i></span></h3>
-      <span id="span1">5,050 subscribers</span>
-      <button id="span2">subcribed</button>
-      <span id="span3"><i class="fa-solid fa-bell"></i></span>
+        <div><button id="span2">subcribed</button>
+        <span id="span3"><i class="fa-solid fa-bell"></i></span>
+
+        </div>
+     </div>
   </section>
   <footer>
   </footer>
