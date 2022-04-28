@@ -14,6 +14,10 @@
     align-content: space-evenly;
     align-items: center;
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
 .first-header{
     width: 10%;
     float: left;
@@ -50,8 +54,12 @@ input{
     font-weight: bold;
     font-family: monospace;
     margin-right: 4px;
-    background: url(image/icons.png) no-repeat right gray ;
+    background: url(image/icons.png) no-repeat right;
 
+}
+input:focus{
+    background-color:rgba(230, 234, 237, 0.9);
+    box-shadow: 5px 15px #996
 }
 .container{
     margin-left: 50px;
@@ -115,12 +123,32 @@ input{
     padding-top: 25px;  
     margin-right:14px;
   }
+  .span-b:hover{
+      font-size: 40px;
+      font-weight: bold;
+      color: #fff;
+      background: rgb(241, 99, 99);
+  }
+  .span-c:hover{
+      background: rgb(241, 99, 99);
+      font-size: 40px;
+      font-weight: bold;
+      color: #fff;
+      width:125px;
+      height: 100px;
+      border-radius: 20px;
+      text-transform: uppercase;
+
+  }
 
 #span1{
     font-size: 0px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500 bold;
     margin-right: 900px;
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
 
 }
 
