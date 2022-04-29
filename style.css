@@ -1,3 +1,14 @@
+
+body{
+    padding:18px;
+    background-color: #fff;
+    color: #000;
+    font-size: 25px;
+}
+.dark-mode{
+    background-color: #000;
+    color: #fff;
+}
 #youtube-icon {
     background-color: red;
 }
@@ -6,13 +17,26 @@
     width: 100%;
     height: 80px;
     display:flex;
-    
     flex-wrap: wrap;
     margin: 15px;
-
     justify-content: space-evenly;
     align-content: space-evenly;
     align-items: center;
+}
+.div_header p {
+    font-size: 30px;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+
+.div_header .button{
+    font-size: 30px;
+    position: absolute;
+    top: 200px;
+    right: 20px;
 }
 .container{
     display: flex;
@@ -35,7 +59,6 @@ display: flex;
     width:18%;
     float:right;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
     position: absolute;
@@ -55,18 +78,18 @@ input{
     font-family: monospace;
     margin-right: 4px;
     background: url(image/icons.png) no-repeat right;
-
 }
 input:focus{
     background-color:rgba(230, 234, 237, 0.9);
-    box-shadow: 5px 15px #996
+    box-shadow: 5px 15px #996;
+    transition: 3s ease-in-out;
+
 }
 .container{
     margin-left: 50px;
     position: absolute;
-    left: 50px;
+    left: 100px;
     padding-left: 10px;
- 
 }
 .float1{
     float: left;
@@ -75,22 +98,20 @@ input:focus{
 .float2{
     float:right;
     display: grid;
-
-    
 }
 .span{
     width: 1200px;
     height: 100px;
     position: absolute;
     top: 1000px;
-    left: 50px;
+    left: 100px;
     margin-left: 50px;
-    margin-top:20px;
+    margin-top:40px;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-content: space-between;
-    border-bottom: 2px solid coral;
+    
     font-size: 20px;
     text-align: center;
 }
@@ -98,39 +119,76 @@ input:focus{
 .span-a{
   padding-top: 25px;  
   margin-right:14px;
+  height: 38px;
+  width:250px;
+  border-right: 2px solid red;
 }
 .span-b{
     padding-top: 25px;  
     margin-right:14px;
+    height: 38px;
+    width: 240px;
+    border-right:2px solid red;
   }
   .span-c{
     padding-top: 25px;  
     margin-right:14px;
+    height: 38px;
+    width: 240px;
+    border-right:2px solid red;
   }
   .span-d{
     padding-top: 25px;  
     margin-right:14px;
+    height: 38px;
+    width: 240px;
+    border-right:2px solid red;
   }
   .span-e{
     padding-top: 25px;  
     margin-right:14px;
+    height: 38px;
+    width: 240px;
+    border-right:2px solid red;
   }
   .span-f{
     padding-top: 25px;  
     margin-right:14px;
+    height: 38px;
+    width: 240px;
+    border-right:2px solid red;
   }
   .span-g{
     padding-top: 25px;  
     margin-right:14px;
+    height: 38px;
+    width: 240px;
   }
+
+  .span-a:hover{
+    background: rgb(241, 99, 99);
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    width:125px;
+    height: 100px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: 2s;
+}
+
   .span-b:hover{
       font-size: 40px;
       font-weight: bold;
       color: #fff;
-      background: rgb(241, 99, 99);
+      background-image:linear-gradient(#f16363,purple, #f16363);
+      height:100px;
+      width:125px;
+      border-radius:20px ;
+      transition: 2s;
   }
   .span-c:hover{
-      background: rgb(241, 99, 99);
+      background-image: linear-gradient(#f16363, purple);
       font-size: 40px;
       font-weight: bold;
       color: #fff;
@@ -138,18 +196,61 @@ input:focus{
       height: 100px;
       border-radius: 20px;
       text-transform: uppercase;
-
+      transition: 2s;
   }
-
+  .span-d:hover{
+    background-image: linear-gradient(tomato, purple);
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    width:125px;
+    height: 100px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: 2s;
+}
+.span-e:hover{
+    background-image: linear-gradient(#555, coral) ;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    width:100px;
+    height: 50px;
+    border-radius: 50%;
+    text-transform: uppercase;
+    transition: 2s;
+}
+.span-f:hover{
+    background-image:linear-gradient(#f16363, purple, #f16363);
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    width:125px;
+    height: 100px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: 2s;
+}
 #span1{
-    font-size: 0px;
+    font-size:24px;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 500 bold;
+    font-weight:  bold;
     margin-right: 900px;
     width: 10px;
     height: 10px;
     border-radius: 8px;
-
+    color:gray ;
+}
+#span2{
+    margin-bottom: 30px;
+    position: absolute; 
+    bottom: -2px;
+    right: 100px;
+}
+#span3{
+    margin-left: 20px;
+    display: inline-block;
+    margin: 0px 5px 10px 0px;
 }
 
 #check{
@@ -158,16 +259,14 @@ input:focus{
     width: 30px;
     border-radius: 50%;
 }
-#span3{
-    margin-left: 10px;
-}
+
 .section-subscribers{
-    width: 100%;
+    width: 1200px;
     position: absolute;
     height: 120px;
     border: 1px solid teal;
     top: 1122px;
-    left: 50px;
+    left: 100px;
     margin-left: 50px;
 }
 .section-subscribers h3{
@@ -177,8 +276,49 @@ input:focus{
     font-weight: bold;
 }
 .section-subscribers button{
-    background: red;
+    background: #ddd;
     padding-top: 4px;
+    font-size: 30px;
+    font-weight: bold;
+    color:#000;
+}
+#button{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.button{
+    padding: 15px;
+    font-size:24px ;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button:hover{
+    background-color: #3e8e41;
+}
+.button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
+button:hover{ 
+height: 80px;
+width: 200px;
+border-radius: 50px;
+border-top: 8px solid goldenrod;
+border-right: 8px solid teal;
+ border-bottom: 8px solid rgb(41, 32, 218);
+border-left: 8px solid rebeccapurple;
+color: aqua;
+text-transform: capitalize;
+text-decoration: line-through;
+transition: 1s;
 }
 .parent{
     width: 50px;
@@ -191,10 +331,12 @@ input:focus{
     column-gap: 10px;
     align-content: space-between;
 }
-#first
-#secondtVideo{
-    margin-bottom:40px;
+#first{
 
+}
+#secondVideo{
+    margin-bottom:40px;
+    display: grid;
 }
 #thirdVideo{
     margin-bottom:40px;
