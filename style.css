@@ -59,7 +59,7 @@ display: flex;
     width:18%;
     float:right;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: space-between;
     position: absolute;
     right: 2px;
@@ -93,7 +93,8 @@ input:focus{
 }
 .float1{
     float: left;
-    margin-right: 200px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 .float2{
     float:right;
@@ -104,14 +105,13 @@ input:focus{
     height: 100px;
     position: absolute;
     top: 1000px;
-    left: 100px;
-    margin-left: 50px;
+    left: 150px;
+    margin-left: 100px;
     margin-top:40px;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-content: space-between;
-    
     font-size: 20px;
     text-align: center;
 }
@@ -235,11 +235,11 @@ input:focus{
     font-size:24px;
     font-family: 'Courier New', Courier, monospace;
     font-weight:  bold;
-    margin-right: 900px;
-    width: 10px;
-    height: 10px;
+    margin-right: 500px;
+    width: 1000px;
+    height: 100px;
     border-radius: 8px;
-    color:gray ;
+
 }
 #span2{
     margin-bottom: 30px;
@@ -263,24 +263,24 @@ input:focus{
 .section-subscribers{
     width: 1200px;
     position: absolute;
-    height: 120px;
-    border: 1px solid teal;
+    height: 150px;
     top: 1122px;
-    left: 100px;
-    margin-left: 50px;
+    left: 150px;
+    margin-left: 100px;
+    border: 2px dashed coral;
 }
 .section-subscribers h3{
-    color:black;
+    color:rgb(130, 183, 31);
     padding-top: 15px;
     font-size: 24px;
     font-weight: bold;
 }
 .section-subscribers button{
-    background: #ddd;
+    background-color: yellowgreen;
     padding-top: 4px;
     font-size: 30px;
     font-weight: bold;
-    color:#000;
+    color:rgb(224, 24, 24);
 }
 #button{
     display: flex;
@@ -330,15 +330,31 @@ transition: 1s;
     display: grid;
     column-gap: 10px;
     align-content: space-between;
+    margin-right: 20px;
 }
-#first{
-
+.parent a{
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 5px;
 }
+ .parent a:hover{
+     background-color: #555;
+     padding: 20px;
+     opacity: 0.5;
+     color: lime;
+     width: 240px;
+     height: 80px;
+     border-radius: 50px;
+ }
 #secondVideo{
     margin-bottom:40px;
     display: grid;
 }
 #thirdVideo{
     margin-bottom:40px;
-
+}
+footer p{
+    position: absolute;
+    bottom: -250px;
+    text-align: center;
 }
